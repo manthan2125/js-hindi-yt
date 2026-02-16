@@ -3,15 +3,15 @@ const score = 400
 const balance = new Number(400)
 // console.log(balance);
 
-// console.log(balance.toString());  // Converts number to string
-// console.log(balance.toFixed(3));  // Precision Value => 400.000
+console.log(balance.toString());  // Converts number to string
+console.log(balance.toFixed(3));  // Precision Value => 400.000
 
 const otherNumber = 452.26559
-// console.log(otherNumber.toPrecision(4));
+console.log(otherNumber.toPrecision(4));
 
 const hundred = 1000000
-// console.log(hundred.toLocaleString()); //1,000,000 (US Standards)
-// console.log(hundred.toLocaleString('en-IN')); //Indian Standard
+console.log(hundred.toLocaleString()); //1,000,000 (US Standards)
+console.log(hundred.toLocaleString('en-IN')); //Indian Standard
 
 // ++++++++++++++++++++ Maths +++++++++++++++++++++++++
 
